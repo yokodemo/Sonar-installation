@@ -22,12 +22,14 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.1.0.73
 ## 4. move it /opt
 
 sudo mv sonarqube-10.1.0.73491.zip /opt/sonarqube-10.1.0.73491.zip
+cd /opt
 
 ##  5.. unzip th folder
 sudo unzip sonarqube-10.1.0.73491.zip 
 
 ## 6.. change the ownership of sonarqube 
 sudo chown -R sonarqube:sonarqube sonarqube-10.1.0.73491
+su sonarqube
 
 ## 7.. start the server 
 cd sonarqube-10.1.0.73491/
