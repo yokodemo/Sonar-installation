@@ -2,6 +2,8 @@
 NOTE: Make sure you add the password of each user like ec2, sonarqube and root
                     using the sudo passwd username
 
+                FOR AMAZUN LINUX INSTANCE
+
              Note 2: Port number of Sonarqube server is 9000
                 Note 3: Username:admin  Password:admin
 #############################################################################
